@@ -631,3 +631,7 @@ Este entorno no me funcionó y además rompió el de ESP-IDF.
 * [ ] Incorporar nuevos sensores
   - [ ] DHT22
   - [ ] BME280
+
+
+Prueba CIBS - Fabián Alejandro Banderas Benítez
+
