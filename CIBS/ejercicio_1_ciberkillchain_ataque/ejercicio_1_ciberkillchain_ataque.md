@@ -41,7 +41,7 @@ Los dispositivos a través los cuales se generan los registros, se conectarán p
 Extraer los datos privados del personal que se autentica en la aplicación de registro de entrada y salida.
 ### 1.- Reconnaissance(Reconocimiento)
   
-![Attack](https://attack.mitre.org/techniques/T1589/)
+[Attack](https://attack.mitre.org/techniques/T1589/)
 El atacante recopila información sobre la aplicación de registro de entrada y salida, como su arquitectura, tecnologías utilizadas, posibles vulnerabilidades y los empleados que la utilizan.
 ### 2.- Weaponization(Arma)
   
@@ -54,7 +54,7 @@ El atacante entrega el malware o la herramienta al dispositivo de un empleado a 
 El malware o la herramienta explota las vulnerabilidades de la aplicación para obtener acceso no autorizado y extraer los datos de registro de entrada y salida del personal.
 ### 5.- Installation(Instalación)
   
-![Attack](https://attack.mitre.org/techniques/T1021/)
+[Attack](https://attack.mitre.org/techniques/T1021/)
 Una vez que el malware ha explotado con éxito las vulnerabilidades, se instala en el dispositivo del empleado y establece una presencia persistente para continuar recopilando los datos de registro.
 ### 6.- Command & Control(Comando y control)
   
