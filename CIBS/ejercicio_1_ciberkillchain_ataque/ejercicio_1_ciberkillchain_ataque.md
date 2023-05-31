@@ -12,7 +12,7 @@ Armar una cyberkillchain usando técnicas de la matriz de Att&ck para un escenar
 #### [Link](https://github.com/fabianbanderasb/Plantilla-planificacion/blob/changes/charter.pdf)
 #### Descripción técnica-conceptual del proyecto a realizar
 
-Debido a la incursión de medios Smartphone, dispositivos electrónicos que se conectan a través de internet, es necesario dar una solución más sencilla para mostrar reportes de registro de entrada y salida del personal que labora en el interior de la empresa. ``En la Figura \ref{fig:diagBloques} se presenta el diagrama en bloques del sistema. Se observa que desde el dispositivo se hace el registro, este se procesa, valida, asigna de forma interna para luego enviar la notificación respectiva a quien corresponda.
+Debido a la incursión de medios Smartphone, dispositivos electrónicos que se conectan a través de internet, es necesario dar una solución más sencilla para mostrar reportes de registro de entrada y salida del personal que labora en el interior de la empresa. ``En la Figura se presenta el diagrama en bloques del sistema. Se observa que desde el dispositivo se hace el registro, este se procesa, valida, asigna de forma interna para luego enviar la notificación respectiva a quien corresponda.
 
 A falta de un registro de entrada y salida con notificaciones para crear una mejor distribución de tiempos entre empleados se presenta la propuesta que consta de:
 
@@ -38,20 +38,25 @@ Los dispositivos a través los cuales se generan los registros, se conectarán p
 ### Metodología: Cyberkillchain
 
 ### Objetivo del ataque: 
-Inhabilitar sin destruir el puerto enemigo con vistas a posteriormente tomarlo.
-
-### 1.- Reconnaissance
+Extraer los datos privados del personal que se autentica en la aplicación de registro de entrada y salida.
+### 1.- Reconnaissance(Reconocimiento)
   
-### 2.- Weaponization
+El atacante recopila información sobre la aplicación de registro de entrada y salida, como su arquitectura, tecnologías utilizadas, posibles vulnerabilidades y los empleados que la utilizan.
+### 2.- Weaponization(Arma)
   
-### 3.- Delivery
+El atacante desarrolla el malware o la herramienta necesaria para explotar las vulnerabilidades identificadas en la aplicación y extraer los datos de registro de entrada y salida.
+### 3.- Delivery(Entrega)
   
-### 4.- Exploit
+El atacante entrega el malware o la herramienta al dispositivo de un empleado a través de medios como la descarga de una aplicación falsa o el engaño mediante técnicas de ingeniería social.
+### 4.- Exploit(Explotación)
   
-### 5.- Installation  
-
-### 6.- Command & Control
+El malware o la herramienta explota las vulnerabilidades de la aplicación para obtener acceso no autorizado y extraer los datos de registro de entrada y salida del personal.
+### 5.- Installation(Instalación)
   
-### 7.- Actions on Objectives
-
-
+Una vez que el malware ha explotado con éxito las vulnerabilidades, se instala en el dispositivo del empleado y establece una presencia persistente para continuar recopilando los datos de registro.
+### 6.- Command & Control(Comando y control)
+  
+El malware establece una comunicación con el servidor controlado por el atacante para transmitir los datos de registro extraídos del dispositivo del empleado.
+### 7.- Actions on Objectives(Acciones sobre los objetivos)
+  
+El atacante utiliza los datos de registro de entrada y salida para su propio beneficio, como obtener información sobre los horarios de los empleados y crear una otra distribución de tiempos entre ellos.
