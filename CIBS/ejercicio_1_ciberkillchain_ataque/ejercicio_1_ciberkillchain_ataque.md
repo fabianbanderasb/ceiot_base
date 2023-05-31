@@ -32,7 +32,7 @@ Los dispositivos a través los cuales se generan los registros, se conectarán p
 - El supervisor y personal recibirá la notificación push de salida.
 - Las métricas de cada uno de los empleados deben ser visuales a través de grafos.
 
-![Texto alternativo](https://github.com/fabianbanderasb/Plantilla-planificacion/blob/changes/Figuras/diagBloques.png)
+![Texto alternativo](https://github.com/fabianbanderasb/Plantilla-planificacion/blob/changes/Figuras/diagBloques.png){:width="300px" height="200px"}
 
 
 ## Resolución
