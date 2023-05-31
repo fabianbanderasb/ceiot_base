@@ -9,8 +9,7 @@ Fabián Alejandro Banderas Benítez
 Armar una cyberkillchain usando técnicas de la matriz de Att&ck para un escenario relacionado al trabajo práctico de la carrera.
 
 ### Datos del trabajo práctico
-#### Link
-[Trabajo práctico](https://github.com/fabianbanderasb/Plantilla-planificacion/blob/changes/charter.pdf)
+#### [Link](https://github.com/fabianbanderasb/Plantilla-planificacion/blob/changes/charter.pdf)
 #### Descripción técnica-conceptual del proyecto a realizar
 
 Debido a la incursión de medios Smartphone, dispositivos electrónicos que se conectan a través de internet, es necesario dar una solución más sencilla para mostrar reportes de registro de entrada y salida del personal que labora en el interior de la empresa. ``En la Figura \ref{fig:diagBloques} se presenta el diagrama en bloques del sistema. Se observa que desde el dispositivo se hace el registro, este se procesa, valida, asigna de forma interna para luego enviar la notificación respectiva a quien corresponda.
@@ -32,7 +31,7 @@ Los dispositivos a través los cuales se generan los registros, se conectarán p
 - El supervisor y personal recibirá la notificación push de salida.
 - Las métricas de cada uno de los empleados deben ser visuales a través de grafos.
 
-![Texto alternativo](https://github.com/fabianbanderasb/Plantilla-planificacion/blob/changes/Figuras/diagBloques.png){:width="300px" height="200px"}
+![Texto alternativo](https://github.com/fabianbanderasb/Plantilla-planificacion/blob/changes/Figuras/diagBloques.png)
 
 
 ## Resolución
