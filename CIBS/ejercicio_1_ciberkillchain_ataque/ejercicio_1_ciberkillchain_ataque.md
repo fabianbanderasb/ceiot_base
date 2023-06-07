@@ -38,27 +38,44 @@ Los dispositivos a través los cuales se generan los registros, se conectarán p
 ### Metodología: Cyberkillchain
 
 ### Objetivo del ataque: 
-Extraer los datos privados del personal que se autentica en la aplicación de registro de entrada y salida.
+Extraer los datos privados del personal que se autentica en la aplicación de registro de entrada y salida de la base de datos para impedir el acceso
+ de usuarios.
 ### 1.- Reconnaissance(Reconocimiento)
   
-[Attack](https://attack.mitre.org/techniques/T1589/)
-El atacante recopila información sobre la aplicación de registro de entrada y salida, como su arquitectura, tecnologías utilizadas, posibles vulnerabilidades y los empleados que la utilizan.
+
+[Technique](https://attack.mitre.org/techniques/T1589/) Gather Victim Identity Information
+[Sub-techniques](https://attack.mitre.org/techniques/T1589/001/)Gather Victim Identity Information: Credentials
+El atacante recopila información sobre la aplicación de registro de entrada y salida, como su arquitectura, tecnologías utilizadas mongoDB atlas,
+ posibles vulnerabilidades y los empleados que la utilizan.
 ### 2.- Weaponization(Arma)
   
-El atacante desarrolla el malware o la herramienta necesaria para explotar las vulnerabilidades identificadas en la aplicación y extraer los datos de registro de entrada y salida.
+[Technique](https://attack.mitre.org/techniques/T1592/002/)Gather Victim Host Information: Software
+El atacante desarrolla el malware o la herramienta necesaria para explotar las vulnerabilidades identificadas en la aplicación y extraer los datos
+ de registro de entrada y salida que se encuentra en la base de datos.
 ### 3.- Delivery(Entrega)
   
-El atacante entrega el malware o la herramienta al dispositivo de un empleado a través de medios como la descarga de una aplicación falsa o el engaño mediante técnicas de ingeniería social.
+[Technique](https://attack.mitre.org/techniques/T1133/)External Remote Services
+El atacante entrega el malware o la herramienta al dispositivo de un empleado a través de medios como la descarga de una aplicación falsa o el
+ engaño mediante técnicas de ingeniería social.
 ### 4.- Exploit(Explotación)
   
-El malware o la herramienta explota las vulnerabilidades de la aplicación para obtener acceso no autorizado y extraer los datos de registro de entrada y salida del personal.
+[Technique](https://attack.mitre.org/techniques/T1648/)Serverless Execution
+El malware o la herramienta explota las vulnerabilidades de la aplicación para obtener acceso no autorizado y extraer los datos de registro de
+ entrada y salida del personal.
 ### 5.- Installation(Instalación)
   
-[Attack](https://attack.mitre.org/techniques/T1021/)
-Una vez que el malware ha explotado con éxito las vulnerabilidades, se instala en el dispositivo del empleado y establece una presencia persistente para continuar recopilando los datos de registro.
+[Techique](https://attack.mitre.org/techniques/T1021/)
+Una vez que el malware ha explotado con éxito las vulnerabilidades, se instala en el dispositivo del empleado y establece una presencia persistente
+ para continuar recopilando los datos de registro.
 ### 6.- Command & Control(Comando y control)
   
-El malware establece una comunicación con el servidor controlado por el atacante para transmitir los datos de registro extraídos del dispositivo del empleado.
+[Technique](https://attack.mitre.org/tactics/TA0011/)Command and Control
+El malware establece una comunicación con el servidor controlado por el atacante para transmitir los datos de registro extraídos del dispositivo
+ del empleado.
 ### 7.- Actions on Objectives(Acciones sobre los objetivos)
   
-El atacante utiliza los datos de registro de entrada y salida para su propio beneficio, como obtener información sobre los horarios de los empleados y crear una otra distribución de tiempos entre ellos.
+[Technique](https://attack.mitre.org/tactics/TA0040/)Impact
+[Technique](https://attack.mitre.org/techniques/T1531/)Account Access Removal
+El atacante utiliza los datos de registro de entrada y salida para su propio beneficio, como obtener información sobre los horarios de los empleados
+ y crear una otra distribución de tiempos entre ellos.
+
